@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="board.TestGameBoard" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-02-24T09:32:28" hostname="Mohammads-MacBook-Pro.local" time="0.063">
+  <properties/>
+  <testcase name="test01GetAndSetElement" classname="board.TestGameBoard" time="0.028"/>
+  <testcase name="test02Filter" classname="board.TestGameBoard" time="0.004"/>
+  <testcase name="test03All" classname="board.TestGameBoard" time="0.004"/>
+  <testcase name="test04Any" classname="board.TestGameBoard" time="0.004"/>
+  <testcase name="test05TheSameCell" classname="board.TestGameBoard" time="0.001"/>
+  <testcase name="test06FindReturnsTheSameCell" classname="board.TestGameBoard" time="0.001"/>
+  <testcase name="test07FilterTheSameCell" classname="board.TestGameBoard" time="0.001"/>
+  <testcase name="test08AllAny" classname="board.TestGameBoard" time="0.015"/>
+  <testcase name="test09AllAny" classname="board.TestGameBoard" time="0.0"/>
+  <testcase name="test10AllAny" classname="board.TestGameBoard" time="0.0"/>
+  <testcase name="test11AllAny" classname="board.TestGameBoard" time="0.0"/>
+  <system-out><![CDATA[{(1, 1)=a, (1, 2)=a, (2, 1)=null, (2, 2)=null}
+{(1, 1)=a, (1, 2)=a, (2, 1)=a, (2, 2)=a}
+{(1, 1)=a, (1, 2)=b, (2, 1)=null, (2, 2)=null}
+true
+{(1, 1)=a, (1, 2)=b, (2, 1)=null, (2, 2)=null}
+true
+{(1, 1)=1, (1, 2)=0, (2, 1)=2, (2, 2)=3}
+{(1, 1)=1, (1, 2)=0, (2, 1)=2, (2, 2)=3}
+true
+{(1, 1)=0, (1, 2)=0, (2, 1)=0, (2, 2)=0}
+{(1, 1)=0, (1, 2)=0, (2, 1)=0, (2, 2)=0}
+true
+{(1, 1)=1, (1, 2)=2, (2, 1)=3, (2, 2)=4}
+{(1, 1)=1, (1, 2)=2, (2, 1)=3, (2, 2)=4}
+false
+{(1, 1)=0, (1, 2)=1, (2, 1)=null, (2, 2)=1}
+{(1, 1)=0, (1, 2)=1, (2, 1)=null, (2, 2)=1}
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
